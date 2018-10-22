@@ -5,8 +5,18 @@
 }
 
 .logo{
-    background:url();
+    background:url(https://raw.githubusercontent.com/Code-Institute-Org/project-assets/master/stream-1/band-assets/images/cover2.png);
     color: #fafafa;
     background-color:#aaaaaa;
     font-family: Roboto, sans-serif;
+}
+
+/*-----Carousel-----*/
+
+.item {
+    
+}
+
+.item-active {
+    
 }
