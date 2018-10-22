@@ -5,18 +5,32 @@
 }
 
 .logo{
-    background:url(https://raw.githubusercontent.com/Code-Institute-Org/project-assets/master/stream-1/band-assets/images/cover2.png);
+    background:url(../images/cover2.png);
+    background-repeat:no-repeat;
     color: #fafafa;
     background-color:#aaaaaa;
     font-family: Roboto, sans-serif;
 }
 
-/*-----Carousel-----*/
-
-.item {
-    
+.cover{
+    background:url(../images/monkees.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
 }
 
-.item-active {
-    
+h6 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    font-family: 'Permanent Marker', cursive;
+    color: #fafafa;
+    font-size: 50px;
 }
