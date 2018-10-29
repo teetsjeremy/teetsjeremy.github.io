@@ -13,24 +13,54 @@
 }
 
 .cover{
-    background:url(../images/monkees.jpg);
+    background:url(https://raw.githubusercontent.com/teetsjeremy/ucd-milestone/master/album2.jpg);
+    min-height:100%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    background-color: #aaaaaa;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
 }
 
-h6 {
+.span {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    /* bring your own prefixes */
-    transform: translate(-50%, -50%);
-    font-family: 'Permanent Marker', cursive;
-    color: #fafafa;
-    font-size: 50px;
+    padding:50px 50px;
+    color: #a1a1a1;
+    font-size: 150px;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+    color: rgba(255, 255,255, .8);
+}
+
+
+.main {
+    height: 100%;
+}
+
+.button{
+    background:url(https://www.monkees.com/sites/all/themes/twitter_bootstrap/bootstrap/img/monkees-logo.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    position: fixed;
+    top:50%;
+    left:50%;
+    color:#f1f1f1;
+    font-size:75px;
+    }
+
+
+h1{
+    color:white;
+    size: 75px;
+    position:fixed;
+}
+
+.head-photo{
+    background:url(../images/band.jpg;
 }
