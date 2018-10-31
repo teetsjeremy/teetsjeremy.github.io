@@ -52,26 +52,23 @@
     padding:2%;
 }
 
+/*------------------------header------*/
+
+.head{
+    background-color: #5a5a5a;
+    background-position: center;
+    background-repeat:no-repeat;
+    text-align:center;
+}
+
 .header{
     color: #fafafa;
-    background-color:#aaaaaa;
+    background-color:#5a5a5a;
     font-family: Roboto, sans-serif;
 }
 
-.logo{
-    background:url(../images/cover2.png);
-    background-repeat:no-repeat;
-    color: #fafafa;
-    background-color:#aaaaaa;
-    font-family: Roboto, sans-serif;
-}
-
-.cover{
-    background:url(https://raw.githubusercontent.com/teetsjeremy/ucd-milestone/master/monkees-logo.png);
-    /*background-position: center;
-    background-repeat: no-repeat;
-    background-size: 75%;
-    background-color: #aaaaaa;*/
+.image{
+    margin:0 5px;
 }
 
 .span {
@@ -83,58 +80,6 @@
 
 .link{
     padding:30% 30%;
-}
-
-body, html{
-    height: 100%;
-    margin: 0;
-    color: rgba(255, 255,255, .8);
-    background-color: #e05400;
-}
-
-
-.main {
-    height: 100%;
-}
-.body{
-    color:black;
-}
-
-h1{
-    color:black;
-    margin: 0 80%;
-   
-}
-
-.head{
-    background:url(https://www.monkees.com/sites/all/themes/twitter_bootstrap/bootstrap/img/monkees-logo.png);
-    background-position: center;
-    background-repeat:no-repeat;
-}
-
-.container1{
-    min-height: 250px;
-}
-
-
-/*heading*/
-
-/*-----------------------------------------Heading*/
-
-header {
-    margin: 30px;
-}
-
-.logo {
-    background: url("../images/album.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
 }
 
 .name {
@@ -163,7 +108,7 @@ header {
 }
 
 .menuitem {
-    height: 120px;
+    height: 40px;
     text-align: center;
     padding: 0;
 }
@@ -172,7 +117,7 @@ header {
     width: 100%;
     text-decoration: none;
     color: #ffffff;
-    height: 120px;
+    height: 40px;
 }
 
 
@@ -194,14 +139,43 @@ header {
     letter-spacing: 2px;
 }
 
+
+/*---------------------body section-----*/
+
+.main-1{
+    background:url(../images/band.jpg);
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+    color: rgba(255, 255,255, .8);
+    background-color: #e05400;
+}
+
+
+.main {
+    height: 100%;
+}
+.body{
+    color:black;
+}
+
+h1{
+    color:black;
+    margin: 0 80%;
+   
+}
+
+.container1{
+    min-height: 250px;
+}
+
+/*---------------------------footer------*/
 .footer{
     background-color: grey;
     color:black;
     
-}
-
-.main-1{
-    background:url(../images/band.jpg);
 }
 
 .social-links{
