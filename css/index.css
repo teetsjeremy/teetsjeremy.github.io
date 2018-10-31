@@ -40,9 +40,14 @@
 
 .ul-menu-color-download{    
     background-color:#ff6347;
-    
-    
+}    
+
+/*------------------------landing-----*/
+
+.landing{
+    margin: 50% 50%;
 }
+
 .header{
     color: #fafafa;
     background-color:#aaaaaa;
@@ -59,11 +64,10 @@
 
 .cover{
     background:url(https://raw.githubusercontent.com/teetsjeremy/ucd-milestone/master/monkees-logo.png);
-    min-height:100%; 
-    background-position: center;
+    /*background-position: center;
     background-repeat: no-repeat;
     background-size: 75%;
-    background-color: #aaaaaa;
+    background-color: #aaaaaa;*/
 }
 
 .span {
