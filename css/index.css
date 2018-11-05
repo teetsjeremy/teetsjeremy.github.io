@@ -213,3 +213,10 @@ h1{
 .row-footer-details{
     margin:20px;
 }
+
+/*-----------------------Media Queries-------*/
+@media (max-width:767px) {
+    #discs {
+        display:none;
+    }
+}
