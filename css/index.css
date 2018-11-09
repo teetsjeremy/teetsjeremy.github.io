@@ -219,4 +219,12 @@ h1{
     #discs {
         display:none;
     }
+    #dj {
+        display:none;
+    }
+}
+
+/*------------------------------band pics-----*/
+.dj {
+    float:left;
 }
