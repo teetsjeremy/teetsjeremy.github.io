@@ -3,7 +3,7 @@
 /*-----------------------------------------Colors*/
 
 .bg-color-title {
-    background-color: grey;
+    background-color: white;
 }
 
 .bg-color-three-reasons {
@@ -55,7 +55,7 @@
 /*------------------------header------*/
 
 .head{
-    background-color: #5a5a5a;
+    background-color: #e1e1e1;
     background-position: center;
     background-repeat:no-repeat;
     text-align:center;
@@ -150,7 +150,7 @@ body, html{
     height: 100%;
     margin: 0;
     color: rgba(255, 255,255, .8);
-    background-color: #e05400;
+    background-color: #969492;
 }
 
 
@@ -173,11 +173,11 @@ h1{
 
 /*---------------------------footer------*/
 .booking{
-    color:#fafafa;
+    color:black;
 }
 
 .footer{
-    background-color: grey;
+    background-color: #e1e1e1;
     color:black;
     
 }
@@ -187,7 +187,7 @@ h1{
 }
 
 .social-links li a {
-    color: #fafafa;
+    color: black;
 }
 
 .social-links li a i {
@@ -198,7 +198,7 @@ h1{
     font-size:13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
+    color: black;
     background: rgba(0,0,0,.5);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -207,7 +207,7 @@ h1{
 }
 
 .social-links li a i:hover{
-    background:#e84610;
+    background:#f7f7f7;
 }
 
 .row-footer-details{
@@ -226,5 +226,21 @@ h1{
 
 /*------------------------------band pics-----*/
 .dj {
+    display:inline-block;
+    transition: transform .2s;
+    border-radius: 35px;
+    margin:auto;
+}
+
+.zoom {
     float:left;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 35px;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }

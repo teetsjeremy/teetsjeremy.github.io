@@ -5,14 +5,14 @@ ________________________________________________________________________________
 
 Vision--------------------------------------------------------------------------
 
-This website was created for the purpose of expanding an online pressence for a
+This website was created by me for the purpose of expanding an online pressence for a
 rock and roll music band. That band is looking for a way to not only attract new
 fans but also give old fans a place to connect and learn about new content. 
 ________________________________________________________________________________
 
 Content-------------------------------------------------------------------------
 
-There are five total pages included with the site. The first page being the 
+I have created five total pages included within the site. The first page being the 
 landing page. All styling and code was self written. The next page is the home 
 or main page. Header, footer and navigation bar stylings borrowed from Code 
 Institute's UCD-resume project and edited for appropriate content. Styling and 
